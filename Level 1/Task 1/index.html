@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Modern Sidebar</title>
+</head>
+<body>
+
+    <!-- زر المنيو للموبايل -->
+    <button class="menu-toggle md:hidden absolute top-4 left-4 z-50 text-white text-2xl">
+        ☰
+    </button>
+
+    <!-- السايدبار -->
+    <aside class="sidebar">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        
+        <div class="sidebar-logo">
+            <div><img src="teamsidebar_logo.jpeg" alt="" class="w-[30px] rounded-sm"></div>
+            <h1 class="sidebar-title">Cummo</h1>
+            <div class="back-button absolute right-0 hidden md:block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M15 6l-6 6 6 6"/>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <ul class="sidebar-menu">
+            <li class="menu-item active">
+                <div class="menu-icon">🏠</div>
+                <span>Home</span>
+            </li>
+            <li class="menu-item">
+                <div class="menu-icon">ℹ️</div>
+                <span>About</span>
+            </li>
+            <li class="menu-item">
+                <div class="menu-icon">📧</div>
+                <span>Contact</span>
+            </li>
+            <li class="menu-item">
+                <div class="menu-icon">❓</div>
+                <span>Help</span>
+            </li>
+            <li class="menu-item">
+                <div class="menu-icon">⚙️</div>
+                <span>Settings</span>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- المحتوى -->
+    <main class="main-content">
+        <div class="content-card">
+            <h2 class="content-title">Welcome to Your Dashboard</h2>
+            <p class="content-text">
+                This is a modern, responsive sidebar with glassmorphism design and smooth animations. 
+                Navigate through different sections using the sidebar menu.
+            </p>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

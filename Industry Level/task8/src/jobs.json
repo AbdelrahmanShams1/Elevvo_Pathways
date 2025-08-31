@@ -1,0 +1,30 @@
+[
+  {
+    "company": "Google",
+    "title": "Frontend Developer",
+    "status": "Applied",
+    "date": "2025-08-01",
+    "notes": "Waiting for recruiter response"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Backend Developer",
+    "status": "Interviewing",
+    "date": "2025-08-10",
+    "notes": "Technical interview scheduled"
+  },
+  {
+    "company": "Amazon",
+    "title": "Full Stack Engineer",
+    "status": "Offer",
+    "date": "2025-08-15",
+    "notes": "Received job offer 🎉"
+  },
+  {
+    "company": "Meta",
+    "title": "UI/UX Designer",
+    "status": "Rejected",
+    "date": "2025-08-20",
+    "notes": "Application was not successful"
+  }
+]
